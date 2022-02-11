@@ -104,15 +104,14 @@ const DeleteButton = styled.button`
 
 const DropDownContainer = styled.ul`
   position: absolute;
-  top: 1rem;
-  left: -1px;
+  top: 1.5rem;
   width: 100%;
   padding: 1rem 0;
   display: block;
   list-style-type: none;
   background-color: white;
   border: 1px solid rgb(223, 225, 229);
-  border-top: none;
+  border-top: 1px solid rgb(223, 225, 229);
   border-radius: 0 0 1rem 1rem;
   z-index: -9;
 

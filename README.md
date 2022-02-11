@@ -8,6 +8,41 @@ ___
 ## 구현 컴포넌트
 >Toggle, Modal, Tab, Tag, AutoComplete, ClickToEdit
 
+## 과제 실행방법
+0. 실행할 환경은 `node`와 `npm`이 설치되어 있어야 합니다
+  - `node v16.13.0`, `npm v8.1.0`
+
+1. `git clone` 혹은 `code`를 다운로드합니다
+```
+git clone git@github.com:alskfl222/wanted_pre_onboarding.git
+```
+2. `clone` 혹은 다운로드된 `code`의 압축을 푼 폴더로 이동합니다
+```
+cd wanted_pre_onboarding
+```
+3. `node` 패키지를 설치합니다
+```
+npm install
+```
+- 설치되는 패키지는 다음과 같습니다
+```json
+// package.json
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3"
+  },
+```
+4. `npm start`로 클라이언트를 실행합니다
+```json
+// package.json
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+```
+
 ## 컴포넌트 설명
 
 0. 기초 환경
