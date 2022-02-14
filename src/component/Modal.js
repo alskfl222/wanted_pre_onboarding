@@ -24,6 +24,7 @@ const Title = styled.div`
 
 const ModalBackdrop = styled.div`
   position: absolute;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,7 +72,9 @@ const ModalMessage = styled.div`
 `;
 
 const ModalCloseButton = styled.button`
+  position: relative;
   align-self: center;
+  z-index: 1000;
   width: 70%;
   padding: 1rem;
   border: none;
@@ -82,6 +85,7 @@ const ModalCloseButton = styled.button`
   font-weight: 700;
   text-decoration: none;
   cursor: grab;
+  
 `;
 
 export const Modal = () => {
